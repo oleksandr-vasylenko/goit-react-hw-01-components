@@ -7,9 +7,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e7ecf2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.profile-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.description {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
 }
