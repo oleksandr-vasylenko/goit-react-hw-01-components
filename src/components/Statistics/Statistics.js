@@ -1,5 +1,5 @@
 // import PropTypes from 'prop-types';
-// import statistics from '../../data/data';
+// import statistics from '../../data/data.json';
 
 export const Statistics = () => {
   return (
@@ -9,7 +9,7 @@ export const Statistics = () => {
       <ul className="stat-list">
         <li className="item">
           <span className="label">.docx</span>
-          <span className="percentage">4%</span>
+          <span className="percentage">14%</span>
         </li>
         <li className="item">
           <span className="label">.mp3</span>

@@ -1,5 +1,5 @@
 // import PropTypes from 'prop-types';
-import user from '../../data/user';
+import user from '../../data/user.json';
 
 import {
   ProfileCard,
