@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import user from '../user.json';
+import user from '../data/user';
 
 export const Profile = () => {
   return (
