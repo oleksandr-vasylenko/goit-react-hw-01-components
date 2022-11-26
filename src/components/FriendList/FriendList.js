@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import friends from '../../data/friends';
+// import PropTypes from 'prop-types';
+// import friends from '../../data/friends';
 
 export const FriendList = () => {
   return (
