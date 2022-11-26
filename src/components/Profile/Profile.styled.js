@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 export const ProfileCard = styled.div`
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 300px;
+  max-height: 400px;
 
   background-color: #ffffff;
   border-radius: 5px;
