@@ -1,16 +1,13 @@
 import { Profile } from './Profile';
-import user from '../user.json';
+import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
   return (
-    <div class="profile-thumb">
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-    </div>
+    <>
+      <div class="profile-thumb">
+        <Profile />
+      </div>
+      <GlobalStyle />
+    </>
   );
 };
