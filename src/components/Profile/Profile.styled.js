@@ -8,19 +8,38 @@ export const ProfileCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 `;
 
-// img {
-//   border-radius: 50%;
-//   display: block;
-//   height: 100%;
-//   width: 100%;
-//   object-fit: cover;
-// }
+export const Avatar = styled.img`
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  width: 200px;
+`;
 
-// .description {
-//   text-align: center;
-// }
+export const Description = styled.div`
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
 
-// .stats {
-//   display: flex;
-//   justify-content: space-around;
-// }
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+`;
+
+export const Name = styled.p`
+  font-weight: 700;
+`;
+
+export const Stats = styled.ul`
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3f6f9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+`;
+
+export const StatList = styled.li`
+  display: flex;
+  flex-direction: column;
+`;
