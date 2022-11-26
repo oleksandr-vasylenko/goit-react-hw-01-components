@@ -4,7 +4,7 @@ import { GlobalStyle } from './GlobalStyle';
 export const App = () => {
   return (
     <>
-      <div class="profile-thumb">
+      <div className="profile-thumb">
         <Profile />
       </div>
       <GlobalStyle />
