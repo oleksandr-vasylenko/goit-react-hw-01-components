@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import statistics from '../../Data/data';
+import statistics from '../../data/data';
 
 export const Statistics = () => {
   return (
