@@ -1,6 +1,11 @@
-// import styled from 'styled-components'
+import styled from 'styled-components';
 
-// .profile-thumb {
+export const ProfileCard = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+// .profileThumb {
 //   display: flex;
 //   align-items: center;
 //   justify-content: center;
