@@ -26,11 +26,11 @@ export const App = () => {
         <Statistics title="Upload stats" stats={data} />
       </div>
 
-      {/*<div>
-        <FriendList />
-      </div>
+      {/* <div>
+        <FriendList friends={friends} />;
+      </div> */}
 
-      <div>
+      {/*<div>
         <TransactionHistory />
       </div> */}
       <GlobalStyle />
