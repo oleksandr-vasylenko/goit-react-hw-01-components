@@ -1,16 +1,14 @@
 // import PropTypes from 'prop-types';
+import { Friend } from './Friend';
 
-export const FriendList = friends => {
-  return friends.map(element => (
-    <li className="item">
-      <span className="status">{element.isOnline}</span>
-      <img
-        className="avatar"
-        src={element.avatar}
-        alt="User avatar"
-        width="48"
-      />
-      <p className="name">{element.name}</p>
-    </li>
-  ));
+export const FriendList = ({ friends }) => {
+  return (
+    <ul>
+      {friends.map(friend => (
+        <li key={friend.id}>
+          <Friend friend={friend} />
+        </li>
+      ))}
+    </ul>
+  );
 };
