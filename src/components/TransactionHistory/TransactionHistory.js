@@ -1,7 +1,7 @@
 // import PropTypes from 'prop-types';
-// import transactions from '../../data/transactions.json';
+import { Transaction } from './TransactionItem';
 
-export const TransactionHistory = () => {
+export const TransactionHistory = ({ transactions }) => {
   return (
     <table className="transaction-history">
       <thead>
@@ -12,18 +12,15 @@ export const TransactionHistory = () => {
         </tr>
       </thead>
 
-      <tbody>
-        <tr>
-          <td>Invoice</td>
-          <td>125</td>
-          <td>USD</td>
-        </tr>
-        <tr>
-          <td>Withdrawal</td>
-          <td>85</td>
-          <td>USD</td>
-        </tr>
-      </tbody>
+      {transactions.map(transaction => (
+        <tbody key={transaction.id}>
+          <Transaction
+            type={transaction.type}
+            amount={transaction.amount}
+            currency={transaction.currency}
+          />
+        </tbody>
+      ))}
     </table>
   );
 };
