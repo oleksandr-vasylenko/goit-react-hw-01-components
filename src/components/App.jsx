@@ -12,7 +12,7 @@ import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
-    <>
+    <div>
       <div>
         <Profile
           username={user.username}
@@ -32,7 +32,7 @@ export const App = () => {
         />
       </div>
 
-      <div className="test">
+      <div>
         <FriendList friends={friends} />
       </div>
 
@@ -41,6 +41,6 @@ export const App = () => {
       </div>
 
       <GlobalStyle />
-    </>
+    </div>
   );
 };

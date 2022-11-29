@@ -4,7 +4,7 @@ export const ProfileCard = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-width: 300px;
+  width: 320px;
   max-height: 400px;
 
   background-color: #ffffff;
