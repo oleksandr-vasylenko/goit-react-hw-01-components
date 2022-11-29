@@ -23,7 +23,13 @@ export const App = () => {
         />
       </div>
       <div>
-        <Statistics title="Upload stats" stats={data} />
+        <Statistics
+          title="Upload stats"
+          stats={data}
+          id={data.id}
+          label={data.label}
+          percentage={data.percentage}
+        />
       </div>
 
       <div className="test">
